@@ -2,9 +2,6 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [],
-  "build": {
-    "env": {
-      "YARN_REGISTRY": "https://registry.yarnpkg.com"
-    }
-  }
+  "installCommand": "node install-deps.js",
+  "buildCommand": "npm run build"
 }
